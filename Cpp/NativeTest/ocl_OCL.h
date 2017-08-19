@@ -13,7 +13,7 @@ extern "C" {
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_ocl_OCL_sayHello
-  (JNIEnv *, jobject);
+(JNIEnv *, jobject);
 
 #ifdef __cplusplus
 }

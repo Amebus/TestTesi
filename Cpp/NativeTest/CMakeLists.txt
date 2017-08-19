@@ -3,5 +3,5 @@ project(NativeTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES library.cpp library.h OCL.cpp)
+set(SOURCE_FILES library.cpp library.h OCL.cpp ocl_OCL.h)
 add_library(NativeTest SHARED ${SOURCE_FILES})
