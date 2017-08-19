@@ -6,7 +6,8 @@ public class OCL
 	{
 		try
 		{
-			System.load("/home/federico/GitKraken/TestTesi/Cpp/Out/libNativeTest.so");
+			//System.load("/home/federico/GitKraken/TestTesi/Cpp/Out/libNativeTest.so");
+			System.loadLibrary("NativeTest");
 		}
 		catch (UnsatisfiedLinkError e)
 		{
