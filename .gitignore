@@ -2,12 +2,10 @@
 
 **/Out/
 
-
 #Java
 
 # Compiled class file
 **/*.class
-Java/target/classes/
 
 # Log file
 **/*.log
@@ -80,5 +78,3 @@ Java/target/classes/
 **/crashlytics.properties
 **/crashlytics-build.properties
 **/fabric.properties
-
-
